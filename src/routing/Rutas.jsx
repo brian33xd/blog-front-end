@@ -19,15 +19,15 @@ export const Rutas = () => {
       {/*CONTENIDO CENTRAL Y RUTAS*/}
       <section id="content" className='content'>
         <Routes>
-          <Route path='https://bloganime.vercel.app/' element={<Inicio />} />
-          <Route path='https://bloganime.vercel.app/inicio' element={<Inicio />} />
-          <Route path='https://bloganime.vercel.app/admin' element={<Admin />} />
-          <Route path='https://bloganime.vercel.app/articulos' element={<Articulos />} />
-          <Route path='https://bloganime.vercel.app/sobre-mi' element={<About />} />
-          <Route path='https://bloganime.vercel.app/contacto' element={<Contacto />} />
-          <Route path='https://bloganime.vercel.app/buscar/:buscar' element={<Busqueda />} />
-          <Route path='https://bloganime.vercel.app/articulo/:art' element={<Articulo />} />
-          <Route path='https://bloganime.vercel.app/editar/:edit' element={<Editar />} />
+          <Route path='bloganime.vercel.app/' element={<Inicio />} />
+          <Route path='bloganime.vercel.app/inicio' element={<Inicio />} />
+          <Route path='bloganime.vercel.app/admin' element={<Admin />} />
+          <Route path='bloganime.vercel.app/articulos' element={<Articulos />} />
+          <Route path='bloganime.vercel.app/sobre-mi' element={<About />} />
+          <Route path='bloganime.vercel.app/contacto' element={<Contacto />} />
+          <Route path='bloganime.vercel.app/buscar/:buscar' element={<Busqueda />} />
+          <Route path='bloganime.vercel.app/articulo/:art' element={<Articulo />} />
+          <Route path='bloganime.vercel.app/editar/:edit' element={<Editar />} />
 
           <Route path='*' element={<div className='error'><h1>No se ha encontrado ninguna página</h1>
             <NavLink to='/'>Volver al inicio</NavLink></div>} />
