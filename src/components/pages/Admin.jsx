@@ -23,7 +23,7 @@ export const Admin = () => {
     return (
         <main className="articles">
 
-            {Cargando ? 'Cargando...' :
+            {Cargando ? '<h1 className="Cargando-articles">Cargando...</h1>' :
                 Articulos.length >= 1 ?
                     (
                         <>

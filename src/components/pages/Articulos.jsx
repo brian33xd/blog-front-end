@@ -21,7 +21,7 @@ export const Articulos = () => {
   }, [])
   return (
     <main className="articles">
-      {Cargando ? 'Cargando...' :
+      {Cargando ? '<h1 className="Cargando-articles">Cargando...</h1>' :
         Articulos.length >= 1 ?
           <Listado Articulos={Articulos} setArticulos={setArticulos} />
           : <h1 className='articles__empty'>No hay articulos</h1>
