@@ -1,0 +1,300 @@
+@media (max-width: 1670px) {
+    .contacto__title {
+        font-size: 2.6rem;
+    }
+
+    .youtube__list {
+        gap: 1rem;
+    }
+
+
+}
+
+@media (max-width: 1530px) {
+    .contacto__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .contacto__community {
+        margin-top: 2rem;
+        width: 90%;
+        gap: 1rem;
+    }
+
+    .contacto__header {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .contacto__contact {
+        width: 80%;
+    }
+
+    .about {
+        width: 70%;
+    }
+
+    .about__youtube-container {
+        width: 91%;
+    }
+
+
+    @media (max-width: 1200px) {
+
+        .content__inicio,
+        .articles,
+        .about,
+        .contacto__container {
+            margin-top: 12rem;
+            width: 100%;
+        }
+
+        .article__single-container {
+            width: 90%;
+            margin-top: 10rem;
+        }
+
+        .about {
+            padding-left: 6.5rem;
+        }
+
+        .youtube__video {
+            width: 461px;
+        }
+
+        .nav {
+            flex-direction: column;
+            align-items: normal;
+
+        }
+
+
+        .nav__logo {
+            position: static;
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+
+        .nav__search {
+            position: static;
+            padding: 0rem 10rem;
+            margin-top: -3rem;
+        }
+
+        .nav__choose {
+            display: inline;
+            padding: 0.3rem 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 930px) {
+    .nav__list {
+        display: none;
+        width: 50%;
+        position: absolute;
+        top: 6.5%;
+        z-index: 4;
+        transform: translateX(550px);
+        transition: all 250ms ease-in-out;
+        padding: 1rem 0;
+    }
+
+    .nav-close-open {
+        display: flex;
+    }
+
+    .nav__link-active {
+        transform: scale(1.1);
+    }
+
+    .show-menu .nav__list {
+        display: block;
+        animation-name: move-x;
+        animation-duration: 300ms;
+        animation-fill-mode: both;
+    }
+
+    .nav__link {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .contacto__title {
+        font-size: 2.3rem;
+    }
+
+    .contacto__community {
+        width: 95%;
+        gap: 1rem;
+        flex-flow: row wrap;
+    }
+
+    .community__card {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .articles {
+        margin-right: 0;
+    }
+
+    .article__item {
+        width: 60%;
+    }
+
+    .nav__logo-img {
+        height: 65px;
+        width: 65px;
+    }
+
+    .nav__logo-title {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 667px) {
+
+    .inicio__title {
+        font-size: 2.2rem;
+    }
+
+    .nav__search {
+        padding: 0 2rem;
+    }
+
+    .article__item {
+        width: 90%;
+    }
+
+    .content__inicio {
+        padding-right: 0;
+    }
+
+    .nav__logo-img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .nav__logo-title {
+        font-size: 1.3rem;
+    }
+
+    .about {
+        padding-left: 3rem;
+    }
+
+    .contacto__title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 553px) {
+    .youtube__video {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    html {
+        font-size: 15px;
+    }
+
+
+    .nav__list {
+        width: 75%;
+    }
+
+    .article__single-container {
+        width: 90%;
+        margin-top: 7rem;
+
+    }
+
+    .inicio__title {
+        font-size: 1.8rem;
+    }
+
+    .content__inicio .article__description {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .about {
+        padding-left: 1rem;
+    }
+
+    .about__youtube-container {
+        width: 98%;
+    }
+
+    .youtube__videos {
+        margin-left: 1rem;
+    }
+
+    .youtube__video {
+        width: 300px;
+        height: 200px;
+    }
+
+    .nav__choose {
+        font-size: 0.9rem;
+    }
+
+    .youtube__name {
+        font-size: 1.6rem;
+    }
+
+    .contacto__contact {
+        width: 100%;
+    }
+
+    .contact__input {
+        width: 41%;
+    }
+
+    .contact__choises {
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 10px;
+    }
+
+    .community__card {
+        width: 92%;
+        height: 156px;
+
+    }
+
+    .contact__title {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+@keyframes move-x {
+    0% {
+        transform: translateX(550px);
+    }
+
+    100% {
+        transform: translateX(125px);
+    }
+}
