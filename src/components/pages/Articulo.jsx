@@ -28,7 +28,7 @@ export const Articulo = () => {
   return (
     <>
 
-      {Cargando ? '<h1 className="Cargando-articles">Cargando...</h1>' :
+      {Cargando ? <h1 className="Cargando-articles">Cargando...</h1> :
         <main className='article__single-container'>
           <article className='article__item'>
             <section className="article__mask">
